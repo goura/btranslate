@@ -18,3 +18,5 @@ You have to [sign up for Microsoft Translator and get Client ID and Client Secre
     % btranslate -text="愛はさだめ、さだめは死" -from=ja -to=en -round_trip
     愛は運命、運命は死。
 
+    % btranslate -text="愛はさだめ、さだめは死" -from=ja -to=en -json
+    {"from":"ja","original":"愛はさだめ、さだめは死","round_tripped":"愛は運命、運命は死。","to":"en","translated":"Love is destiny, fate is death."}
